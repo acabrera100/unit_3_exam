@@ -1,0 +1,24 @@
+{
+  "name": "unit_3_exam",
+  "version": "1.0.0",
+  "description": "A marine biology research team needs our help! Their old database wasn't doing a great job at organizing their research data. They do a lot of work in the field, and they keep track of all of it- they log every sighting of an animal species, they place GPS tags on animals to keep track of them, and they make sure to keep track of which habitats are home to which species.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acabrera100/unit_3_exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acabrera100/unit_3_exam/issues"
+  },
+  "homepage": "https://github.com/acabrera100/unit_3_exam#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg-promise": "^8.5.4"
+  }
+}

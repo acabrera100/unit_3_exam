@@ -14,7 +14,9 @@ Therefore, we are going to create a database for them with the following tables:
 Based on these descriptions, we can conclude:
 
 - Researchers have many Taggings (they tag animals), and Sightings (they see species).
-- Species have many Animals (animals have species), and many Sightings (different species are seen in different environments).
+
+- SPECIES HAVE MANY ANIMALS (ANIMALS HAVE SPECIES), AND MANY SIGHTINGS (DIFFERENT SPECIES ARE SEEN IN DIFFERENT ENVIRONMENTS).
+
 - Animals have one Species (a dolphin is a dolphin) and many Taggings (different researchers might tag the same animal).
 - Taggings have one Researcher and one Animal (a researcher tags an animal - this is a join table).
 - Sightings have one Researcher, one Species, and one Habitat (a particular researcher sees a species in a habitat - this is a join table).
